@@ -1,0 +1,120 @@
+<!DOCTYPE html> <html lang="en"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jolie Airbnb | Luxury Stays</title>
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header= "hero">
+        <div class ="hero content">
+        <h1>Jolie perfect stay</h1>
+        <p>Find a perfect stay at dar es salaam</P>
+            <a href="#accommodation" class="cta-button">Explore Stays</a>
+        </div>
+        </header>
+
+    <main>
+        <section id="about" class="about-section">
+    <div class="about-container">
+        <div class="about-image">
+            <img src="https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=600" alt="About Jolie Stays">
+        </div>
+
+        <div class="about-text">
+            <h2>About Jolie Stays</h2>
+            <p>Welcome to the heart of hospitality in Dar es Salaam. At Jolie Stays, we believe that every traveler deserves a home away from home that is both luxurious and affordable.</p>
+            <p>Whether you are here for business at CRDB or a vacation in the sun, our curated apartments in Masaki and Oysterbay are designed to give you the perfect experience.</p>
+            <button class="secondary-btn">Learn More</button>
+        </div>
+    </div>
+</section>
+<section id="accommodation"class="rooms-section">
+    <div class="section-header">
+    <h2>Our Rooms</h2>
+    <p>Handpicked stays for your comfort in Dar es Salaam</p></div>
+    <div class="grid" id="property-grid">
+        </div>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-container img">
+                <img src="./interiordesign.jpg" alt="Interior">
+                <img src="./swimmingpool.jpg" alt="Pool">
+                <img src="./bedroom.jpg" alt="Bedroom">
+                <img src="./garden.jpg" alt="Garden">
+            </div>
+    
+    <div class="image-row">
+        </div>
+</section>
+
+<section id="booking" class="booking-section">
+    <div class="booking-container">
+        <h2>Book Your Stay</h2>
+        <p>Reserve your perfect spot at Jolie Stays in seconds.</p>
+
+        <form id="booking-form">
+            <div class="form-row">
+                <div class="input-group">
+                    <label for="checkin">Check-in</label>
+                    <input type="date" id="checkin" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="checkout">Check-out</label>
+                    <input type="date" id="checkout" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="guests">Guests</label>
+                <select id="guests">
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4+">4+ Guests</option>
+                </select>
+            </div>
+
+            <button type="submit" class="book-now-btn">Check Availability</button>
+        </form>
+        
+        <div id="booking-message"></div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <p>Have questions? We're here to help you find your perfect stay.</p>
+        
+        <div class="contact-info">
+            <div class="info-item">
+                <strong>📍 Location:</strong>
+                <p>Masaki, Dar es Salaam, Tanzania</p>
+            </div>
+            <div class="info-item">
+                <strong>📞 Phone:</strong>
+                <p>+255 700 000 000</p>
+            </div>
+            <div class="info-item">
+                <strong>✉️ Email:</strong>
+                <p>info@joliestays.co.tz</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        </main>
+
+    <footer>
+         <p>&copy; 2026 Jolie Stays. Built with ❤️ for Revision.</p>
+        </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
